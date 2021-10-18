@@ -8,24 +8,54 @@
 </head>
 <body>
     <header class="haeder">
-       <nav class="header__navigation navigation">
+       <nav class="header__navigation">
            <ul class="navigation__list list">
-                <li class="navigation__item item">
+                <li class="navigation__item">
                      <a href="#" class="navigation__link">Каталог товаров</a>
                 </li>
-                <li class="navigation__item item">
+                <li class="navigation__item">
                     <a href="#" class="navigation__link">Вязание на заказ</a>
                 </li>
            </ul>
        </nav>
-       <div class="header__logo">
-             <a class="logo__link" href="#"><img class="logo" src="/img/mishka-logo-desktop.png" alt="Логотип mishka"></a>
-       </div>
-        <a class="search__link" href="#"><img class="Header__Search" src="/img/search.png" alt=" Иконка поиска"></a>
-       <div class="navigation__cart cart">
-            <a class="cart_link" href="#"<img class="cart__icon" src="/img/cart.png" alt="Корзина" href="#"></a>
-            <a href="#" class="cart__words">Вязание на заказ</a> 
-       </div>    
+        <a class="header__logo" href="#"><img class="logo" src="/img/mishka-logo-desktop.png" alt="Логотип mishka"></a>
+        <ul class="header__functions functions">
+            <li>
+                <a class="functions__link" href="#"><img src="/img/search.png" alt=" Иконка поиска"></a>
+            </li>
+            <li>
+                <div class="functions__cart">
+                    <a class="cart__link" href="#"><img src="/img/cart.png" alt="Корзина" href="#"></a>
+                    <a href="#" class="cart__link">Корзина</a> 
+                </div>
+            </li>
+        </ul>   
     </header>
+
+
+    <main>
+        <section class="promo">
+            <nav class="promo__navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__iteam">
+                        <a href="#" class="navigation__link">Новые поступления</a>
+                    </li>
+                    <li class="navigation__iteam">
+                        <a href="#" class="navigation__link">Распродажа</a>
+                    </li>
+                    <p class="prom__delivery">Бесплатная доставка по России</p>
+                </ul>
+            </nav>
+            <h1>Милые штуки ручной работы для дома</h1>
+            <ul class="promo__button">
+                <li class="promo__button--salad">
+                    <button>Предмет интерьера <img src="/img/interior.svg.png" alt="Лампа"></button>
+                </li>
+                <li class="promo__button--green">
+                    <button>Детские игрушки <img src="/img/toy-svg.png" alt="Кубик конструктора"></button>
+                </li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>
